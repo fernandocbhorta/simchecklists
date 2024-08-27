@@ -1,0 +1,84 @@
+Boeing 777-300
+--Pre Start--
+Parking Brake=SET
+Throttles=IDLE
+Fuel Flow=CUTOFF
+Gear Lever=DOWN
+Flaps=UP
+Fasten Seatbelts=ON
+No Smoking=ON
+Battery=ON
+Ext Power=ON
+Logo Lights=ON
+Std by Power=ON
+
+--Startup--
+Fuel Flow=ON
+Engines=START
+Throttles=IDLE
+Auto Brake=ARM
+AIRSPEED=CHECK
+Flight Instruments=CHECK
+Flight Director=ON
+Autopilot=SET (Don't Activate)
+
+--Taxi--
+Taxi Lights=ON
+Wing Lights=ON
+Heading Indicator=SET
+Altimeter=SET
+AP Altitude=SET
+Standby Instruments=SET
+Autopilot=SET (Don't Activate)
+Autothrust=SET (Don't Activate)
+Flight Director=ON
+Yaw Damper=ON
+Runway=CHECK
+
+--Take off--
+Flaps=10
+Strobe Lights=ON
+Landing Lights=ON
+Autobrakes=RTO
+Transponder=ON
+Throttles=TOGA
+V1=CALL
+Rotate=CALL
+
+--Climb--
+Landing Gear=UP
+Flaps=RETRACT
+Autopilot=ENGAGE
+Climb Thrust=SET
+Climb Speed=CHECK
+
+--Descent--
+Altitude=SET
+Approach Briefing=COMPLETE
+Autopilot=SET (As Required)
+Landing Lights=ON
+Speed=CHECK
+
+--Landing--
+Flaps=FULL
+Autobrakes=SET
+Landing Gear=DOWN
+Strobe Lights=ON
+Transponder=SET (Landing Mode)
+
+--Taxi (After Landing)--
+Taxi Lights=ON
+Flaps=UP
+Landing Lights=OFF
+Runway=EXIT
+Ground Control=CONTACT
+
+--Shutdown--
+Parking Brake=SET
+Engines=SHUTDOWN
+Fuel Flow=CUTOFF
+Battery=OFF
+Ext Power=OFF
+No Smoking=OFF
+Fasten Seatbelts=OFF
+Simplified checklist by Horta :)
